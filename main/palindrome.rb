@@ -2,6 +2,7 @@ module Palindrome
   extend self
 
   def palindrome?(str)
-    false
+    str = str.downcase.delete('^a-z')
+    str.eql?(str.reverse)
   end
 end
