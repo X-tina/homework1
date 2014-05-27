@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require File.expand_path(File.join(File.dirname(__FILE__), '..', 'main', 'game_winner'))
+require File.expand_path(File.join(File.dirname(__FILE__), '..', 'main', 'rock_paper_scisors'))
 
 class TestRockPaperScissors< MiniTest::Unit::TestCase
   def test_equals_strategy
