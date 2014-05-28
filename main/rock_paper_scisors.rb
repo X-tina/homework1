@@ -15,12 +15,11 @@ class RockPaperScissors
     
     if (PLAY.include?(strategy.join) == false)
       puts "'" + "#{move1[0]}" + "'" 
-      #{}"['" + "#{move2[0]}" + "'" + "," + "'" + "#{move2[1]}" + "']"  	
     else puts "'" + "#{move2[0]}" + "'"
-      #{}"['" + "#{move1[0]}" + "'" + "," + "'" + "#{move1[1]}" + "']"
     end
   end  
   
   def self.tournament(net)
   end
+
 end
