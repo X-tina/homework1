@@ -15,7 +15,7 @@ class Class
       res = instance_variable_get("@#{name}_history")
       res ||= [nil]
       res << value
-      instance_variable_set("@#{name}_history", instance_variable_get("@#{name}"))
+      instance_variable_set("@#{name}_history", res)
       instance_variable_set("@#{name}", value)
     end
   end
